@@ -57,3 +57,46 @@ jupyter notebook
 ```bash
 python hostel_ui.py
 ```
+## 📊 Database Schema  
+
+### 🔹 **Student Registration Table**
+| **Column**       | **Data Type**  |
+|-----------------|--------------|
+| `email_id`      | VARCHAR(255) |
+| `father_name`   | VARCHAR(255) |
+| `address`       | TEXT         |
+| `name`         | VARCHAR(255) |
+| `dob_day`      | INT          |
+| `dob_month`    | VARCHAR(10)  |
+| `dob_year`     | INT          |
+| `enrol_no`     | VARCHAR(20)  |
+| `mother_name`  | VARCHAR(255) |
+| `mobile_no`    | VARCHAR(15)  |
+
+### 🔹 **Room Booking Table**
+| **Column**       | **Data Type**  |
+|-----------------|--------------|
+| `select_hostel` | VARCHAR(100) |
+| `room_block`    | VARCHAR(50)  |
+| `room_no`       | VARCHAR(10)  |
+
+---
+
+## How It Works  
+
+- **Admin logs in** using username-"Dbms project" & password-"Dbms@1234"
+- **Student registers** with personal & enrollment details  
+- **Student logs in** using mobile number & DOB for verification  
+- **System fetches student details** from MySQL database  
+- **Admin table displays** all student details for management  
+- **Student selects** hostel, room block & room number for booking  
+- **Details are stored in MySQL**, and booking confirmation is shown  
+
+---
+
+## Future Enhancements  
+
+- **Implement student search functionality**  
+- **Enhance GUI with modern Tkinter styling**  
+- **Enable multiple admin roles for better management**  
+- **Automate email notifications for booking confirmation**  
