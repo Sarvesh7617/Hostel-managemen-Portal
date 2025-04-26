@@ -30,4 +30,23 @@ To run this project locally, **ensure that Jupyter Notebook or VS Code is instal
 
 1. Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/hostel-dbms.git
+git clone https://github.com/Sarvesh7617/Hostel-managemen-Portal.git
+```
+2. Navigate to the Project Directory
+```bash
+cd hostel-dbms
+```
+3. Install Required Dependencies
+```bash
+pip install mysql-connector-python pillow
+```
+4. Ensure MySQL Database is Installed & Configured
+```bash
+5. Ensure MySQL Database is Installed & Configured  
+To set up the database for this project, follow these steps:  
+
+  1 **Create a database named `management`**  
+  2 **Execute the SQL scripts** to set up the following tables:  
+   - `Registration`  
+   - `Room_book`  
+   - `Student_detail` 
