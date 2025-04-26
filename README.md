@@ -53,3 +53,7 @@ To set up the database for this project, follow these steps:
 ```bash
 jupyter notebook
 ```
+### **For VS Code:**
+```bash
+python hostel_ui.py
+```
