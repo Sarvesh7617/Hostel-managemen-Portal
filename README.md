@@ -41,8 +41,6 @@ cd hostel-dbms
 pip install mysql-connector-python pillow
 ```
 4. Ensure MySQL Database is Installed & Configured
-```bash
-5. ## Ensure MySQL Database is Installed & Configured  
 To set up the database for this project, follow these steps:  
 
 1. **Create a database named `management`**  
